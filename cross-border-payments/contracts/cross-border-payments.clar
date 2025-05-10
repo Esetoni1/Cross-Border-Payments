@@ -160,7 +160,6 @@
 )
 
 ;; Public functions
-
 ;; Add funds to a user's balance
 (define-public (deposit (currency (string-ascii 3)) (amount uint))
     (begin
