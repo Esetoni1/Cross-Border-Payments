@@ -197,7 +197,6 @@
         ;; Check compliance
         (asserts! (check-compliance tx-sender recipient amount from-currency to-currency sender-country recipient-country)
             (err err-compliance-check-failed))
-        
         ;; Convert the amount to the target currency
         (match (convert-amount amount from-currency to-currency)
             converted-amount
