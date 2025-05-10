@@ -231,7 +231,6 @@
         )
     )
 )
-
 ;; Administrative functions - only callable by contract owner
 (define-public (set-exchange-rate (from-currency (string-ascii 3)) (to-currency (string-ascii 3)) (rate uint) (decimals uint))
     (begin
