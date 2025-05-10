@@ -137,7 +137,6 @@
         tx-id
     )
 )
-
 ;; Check if the transfer passes compliance checks
 ;; This is a simplified version - in a real-world scenario, this would call external oracles
 ;; or use more sophisticated compliance logic
